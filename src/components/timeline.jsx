@@ -18,7 +18,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
+                        <i className="icon-leaf" />
                       </div>
                       <div className="timeline-label">
                         <h2>Web Developer at S'well <span>Jan 2019 - Present</span></h2>
@@ -34,7 +34,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
+                        <i className="icon-leaf" />
                       </div>
                       <div className="timeline-label">
                         <h2>Web Developer at Hashtag Labs <span>Feb 2018 - Jan 2019</span></h2>
@@ -50,7 +50,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
+                        <i className="icon-leaf" />
                       </div>
                       <div className="timeline-label">
                         <h2>Consultant at Fireman Hospitality Group <span>Nov 2017 - Jan 2018</span></h2>
@@ -59,12 +59,6 @@ export default class Timeline extends Component {
                           <li>Built SQL database and integrating third-party APIs to automate marketing</li>
                           <li>Implemented and trained staff on using new data dashboards for marketing</li>
                         </ul>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
                       </div>
                     </div>
                   </article>

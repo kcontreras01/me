@@ -14,7 +14,7 @@
 body {
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.7); }
   @media screen and (max-width: 992px) {
@@ -137,7 +137,7 @@ figure {
         margin: 0 0 10px 0;
         padding: 0;
         list-style: none;
-        font-size: 12px;
+        font-size: 18px;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 1px; }
@@ -229,8 +229,7 @@ figure {
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
     #colorlib-main {
-      width: 100%;
-      padding: 0 1em; } }
+      width: 100%;} }
 
 #colorlib-hero {
   min-height: 500px;
@@ -368,7 +367,7 @@ body.offcanvas {
   padding: 0 2.5em; }
   @media screen and (max-width: 768px) {
     .colorlib-narrow-content {
-      padding: 0; } }
+      padding: 0 1em; } }
 
 .no-gutters {
   margin: 0;
@@ -387,17 +386,7 @@ body.offcanvas {
   clear: both;
   width: 100%;
   display: block; }
-  @media screen and (max-width: 768px) {
-    .colorlib-experience,
-    .colorlib-skills,
-    .colorlib-education,
-    .colorlib-blog,
-    .colorlib-work,
-    .colorlib-about,
-    .colorlib-services,
-    .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+
 
 .author-img {
   background-size: cover;
@@ -546,7 +535,6 @@ body.offcanvas {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
   display: block;
   width: 40px;
-  height: 40px;
   background: #2c98f0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -556,7 +544,6 @@ body.offcanvas {
   -moz-box-shadow: 0 0 0 5px #f2f3f7;
   -webkit-box-shadow: 0 0 0 5px #f2f3f7;
   box-shadow: 0 0 0 5px #f2f3f7;
-  line-height: 40px;
   float: left; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }

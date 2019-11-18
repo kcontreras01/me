@@ -10,27 +10,26 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div className="author-img" />
               <h1 id="colorlib-logo"><a href="index.html">Kiara Contreras</a></h1>
-              <span className="email"><i className="icon-mail"></i> kiara.p.contreras@gmail.com</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
-                  <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
+                  <li className="active"><a href="#home" data-nav-section="home">Home</a></li>
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   {/*<li><a href="#" data-nav-section="projects">Projects</a></li>*/}
                   <li><a href="#timeline" data-nav-section="timeline">Experience</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>
+                  <li><a href="#blog" data-nav-section="blog">Posts</a></li>
                 </ul>
               </div>
             </nav>
             <nav id="colorlib-main-menu">
               <ul>
-                <li><a href="https://www.facebook.com/dhruv.barochia" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
-                <li><a href="https://twitter.com/ddbarochiya" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
-                <li><a href="https://www.instagram.com/ddbarochiya/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
-                <li><a href="https://www.linkedin.com/in/dhruv-b-545b52a9/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
-                <li><a href="https://github.com/Dhruv34788" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
-                <li><a href="https://medium.com/@dhruv.barochia34788" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li>
+                <li><a href="mailto:kiara.p.contreras@gmail.com" target="_blank" rel="noopener noreferrer"><i className="icon-mail" style={{fontSize: '35px'}}/></a></li>
+                <li><a href="https://twitter.com/kiarathedev" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
+                <li><a href="https://www.instagram.com/kiarathedev/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
+                <li><a href="https://www.linkedin.com/in/kiaracontreras" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
+                <li><a href="https://github.com/kcontreras01" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                <li><a href="https://dev.to/kiarathedev" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2"></i></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">
