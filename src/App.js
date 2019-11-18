@@ -16,7 +16,6 @@ class App extends Component {
 					<Introduction/>
 					<About/>
 					<Timeline/>
-          <Blog/>
           	</div>
       	</div>
       </div>
